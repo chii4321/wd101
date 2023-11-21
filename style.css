@@ -1,10 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(222, 23, 212);
+    background-color: #f0f0f0; /* Light gray background */
 }
-
-
 
 .user-form {
     display: flex;
@@ -17,13 +15,12 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     display: inline-block;
+    color: #333; /* Dark text color */
 }
-
-
 
 .form-body input {
     height: 2rem;
-    border: 1px solid #c41395;
+    border: 1px solid #ff6f61; /* Coral border color */
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
     padding: 0 5px;
@@ -55,26 +52,26 @@ body {
     width: 100%;
     height: 2rem;
     border-radius: 5px;
-    background-color: #34053d;
-    color: #ffffff;
+    background-color: #4caf50; /* Green button color */
+    color: #fff; /* White text color */
     font-weight: 600;
     cursor: pointer;
 }
 
 .container {
     display: inline-block;
-    background-color: #2e73cd;
+    background-color: #3498db; /* Blue container background color */
     padding: 5px;
     border-radius: 10px;
     box-shadow: rgba(67, 142, 140, 0.35) 0 5px 15px;
     margin-bottom: 15px;
 }
 
-
 .user-history>h1 {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 5px;
+    color: #fff; /* White text color */
 }
 
 .user-history {
@@ -82,7 +79,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #17e7d9;
+    background-color: #28a745; /* Dark green background color */
     border-radius: 10px;
     box-shadow: rgba(30, 237, 137, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px,
         rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px,
@@ -111,6 +108,7 @@ td {
 
 label {
     font-size: 18px;
+    color: #333; /* Dark text color */
 }
 
 input[type="checkbox"] {
@@ -120,4 +118,5 @@ input[type="checkbox"] {
 
 input {
     font-size: 18px;
+    color: #555; /* Dark gray text color */
 }
